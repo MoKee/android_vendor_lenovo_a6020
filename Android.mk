@@ -15,7 +15,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter A6020,$(TARGET_DEVICE)),)
+ifneq ($(filter a6020,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.qti.hardware.fm@1.0
